@@ -34,7 +34,7 @@ module.exports = {
     try {
       const musicCommandsEmbed = new EmbedBuilder()
         .setColor(client.config.embedColor)
-        .setTitle('🎸 **Music Commands**')
+        .setTitle('🎸 **Music Commands**🎸')
         .addFields(
           { name: '🎹 Play', value: 'Stream a song from a given link or text from sources' },
           { name: '⏹️ Stop', value: 'Makes the bot stop playing music and leave the voice' },
@@ -53,29 +53,29 @@ module.exports = {
 
       const basicCommandsEmbed = new EmbedBuilder()
         .setColor(client.config.embedColor)
-        .setTitle('✨ **Basic Commands**')
+        .setTitle('✨ **Basic Commands**✨')
         .addFields(
           { name: '🏓 Ping', value: "Check the bot's latency" },
           { name: '🗑️ Clear', value: 'Clear the song queue of this server' },
           { name: '⏱️ Time', value: 'Display the current song playback time' },
           { name: '🎧 Filter', value: 'Apply filters to enhance the sound as you love' },
            { name: '🎵 Now Playing', value: 'Display the currently playing song information' },
-          { name: '🔊 Volume', value: 'Adjust the music volume [ hearing at high volumes is risky ]' },
+          { name: '🔊 Volume', value: 'Adjust the music volume [ hearing at high volumes is risky xD]' },
         ) 
-       .setImage('https://cdn.discordapp.com/attachments/1150827819547504741/1168917372267151370/standard.gif?ex=65538222&is=65410d22&hm=b4994392f44679da41fc9304eb69deaa3769e136057556deec0db69ae8d33a97&')
+       .setImage('https://media.discordapp.net/attachments/1136997505230446723/1259882901324169216/fe0e7e56.png?ex=668d4ce3&is=668bfb63&hm=25a5122d0a9ca2f3347a3553dc21d8e2d2734585cb4c4175915776d426b474f2&')
       const button1 = new ButtonBuilder()
         .setLabel('YouTube')
-        .setURL('https://www.youtube.com/channel/UCPbAvYWBgnYhliJa1BIrv0A')
+        .setURL('https://youtube.com/@itzanmol5794?si=1GIGDMQiYi0Fi8M7')
         .setStyle(ButtonStyle.Link);
 
       const button2 = new ButtonBuilder()
-        .setLabel('Discord')
-        .setURL('https://discord.gg/FUEHs7RCqz')
+        .setLabel('Support Server')
+        .setURL('https://discord.com/invite/Gn8XqJJmuf')
         .setStyle(ButtonStyle.Link);
 
       const button3 = new ButtonBuilder()
-        .setLabel('Code')
-        .setURL('https://github.com/GlaceYT/MUSIC-BOT-v3.6')
+        .setLabel('')
+        .setURL('')
         .setStyle(ButtonStyle.Link);
 
       const row = new ActionRowBuilder()
